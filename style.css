@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+.row-1 {
+    background-color: aqua;
+    background-image: url("./extra/images/greenleaf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-width: 350px;
+}
+.position {
+    background-color: rgba(43, 40, 40, 0.4);
+    height: 120px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.logo-img {
+    height: 100px;
+}
+
+.row-2 {
+    background-color: black;
+
+    min-width: 70%;
+    height: 100vh;
+}
